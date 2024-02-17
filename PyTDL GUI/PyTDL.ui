@@ -1,0 +1,2292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1099</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1081</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1081</width>
+       <height>721</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>1</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+	background-color: rgb(255, 255, 255);
+
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>141</width>
+           <height>44</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 18pt &quot;Arial&quot;;
+font: italic 18pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>PyTDL</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="pixmap">
+          <pixmap>C:/Users/11/Downloads/idea.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-1</y>
+           <width>1081</width>
+           <height>661</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame {
+    background-color: rgb(163, 142, 149); /* 背景颜色 */
+    border-top-right-radius: 50px; /* 右上角圆角 */
+    border: 2px solid #a8a8a8; /* 边框 */
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5); /* 右侧边框的阴影，水平偏移量增加，模糊半径增加 */
+}
+
+
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>100</y>
+               <width>159</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(163, 142, 149);</string>
+             </property>
+             <property name="text">
+              <string>  Home</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>C:/Users/11/Downloads/house.png</normaloff>C:/Users/11/Downloads/house.png</iconset>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>210</y>
+               <width>159</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(163, 142, 149);</string>
+             </property>
+             <property name="text">
+              <string>  Build model</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>C:/Users/11/Downloads/left-indentation-option.png</normaloff>C:/Users/11/Downloads/left-indentation-option.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>320</y>
+               <width>159</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(163, 142, 149);</string>
+             </property>
+             <property name="text">
+              <string>  Simulation</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>C:/Users/11/Downloads/sort-by-attributes-interface-button-option.png</normaloff>C:/Users/11/Downloads/sort-by-attributes-interface-button-option.png</iconset>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>420</y>
+               <width>159</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(163, 142, 149);</string>
+             </property>
+             <property name="text">
+              <string>  Evaluation</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>C:/Users/11/Downloads/foursquare-button.png</normaloff>C:/Users/11/Downloads/foursquare-button.png</iconset>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>520</y>
+               <width>159</width>
+               <height>40</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: rgb(163, 142, 149);</string>
+             </property>
+             <property name="text">
+              <string>   About us</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>C:/Users/11/Downloads/envelope-of-white-paper.png</normaloff>C:/Users/11/Downloads/envelope-of-white-paper.png</iconset>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>5</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QStackedWidget" name="stackedWidget">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>901</width>
+               <height>651</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="currentIndex">
+              <number>1</number>
+             </property>
+             <widget class="QWidget" name="page">
+              <widget class="QLabel" name="label_2">
+               <property name="geometry">
+                <rect>
+                 <x>320</x>
+                 <y>130</y>
+                 <width>331</width>
+                 <height>201</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+font: 75 italic 36pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Welcome</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_3">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>280</y>
+                 <width>871</width>
+                 <height>241</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+font: italic 22pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif';&quot;&gt;A versatile toolkit of temporal difference learning algorithm to simulate &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif';&quot;&gt;behavior process of decision making and cognitive learning&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif';&quot;&gt;source code:&lt;/span&gt;&lt;a href=&quot;https://github.com/hus001/DeciFlexTD&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:20pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/hus001/PyTDL&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_2">
+              <widget class="QTableWidget" name="mappingTable">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>311</width>
+                 <height>191</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QTableView" name="tableView">
+               <property name="geometry">
+                <rect>
+                 <x>330</x>
+                 <y>10</y>
+                 <width>421</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);</string>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_2">
+               <property name="geometry">
+                <rect>
+                 <x>761</x>
+                 <y>10</y>
+                 <width>131</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QPushButton" name="loadButton">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(228, 206, 197);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Load sequence</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="setButton">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(231, 183, 168);
+font: 9pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>Set reward-mapping</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="saveButton">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(170, 170, 255);
+background-color: rgb(131, 93, 255);
+background-color: rgb(192, 128, 111);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Save Settings</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="Line" name="line">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>210</y>
+                 <width>151</width>
+                 <height>13</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-right-color: rgb(170, 170, 255);</string>
+               </property>
+               <property name="lineWidth">
+                <number>2</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_7">
+               <property name="geometry">
+                <rect>
+                 <x>180</x>
+                 <y>205</y>
+                 <width>111</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Value -Function</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_8">
+               <property name="geometry">
+                <rect>
+                 <x>170</x>
+                 <y>430</y>
+                 <width>101</width>
+                 <height>28</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Decision policy</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="save_data_Button">
+               <property name="geometry">
+                <rect>
+                 <x>760</x>
+                 <y>617</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(191, 129, 112);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Save Data</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>600</x>
+                 <y>617</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(228, 206, 198);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Save fig_Q</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_9">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>617</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(228, 206, 197);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Save fig_P</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox">
+               <property name="geometry">
+                <rect>
+                 <x>520</x>
+                 <y>240</y>
+                 <width>221</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>SARSA</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Auto-alpha-TD(0)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QComboBox" name="comboBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>590</x>
+                 <y>470</y>
+                 <width>151</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Softmax</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sigmoid</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_5">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>460</y>
+                 <width>411</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6"/>
+              </widget>
+              <widget class="QLabel" name="label_9">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>240</y>
+                 <width>71</width>
+                 <height>37</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Q-Function:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_10">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>470</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>QP conversion function:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Qinit_LineEdit">
+               <property name="geometry">
+                <rect>
+                 <x>520</x>
+                 <y>290</y>
+                 <width>221</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="placeholderText">
+                <string>Enter comma-separated initial Q values for the different decision actions</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_11">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>290</y>
+                 <width>51</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Q-init：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_12">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Alpha：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="alpha_doubleSpinBox">
+               <property name="geometry">
+                <rect>
+                 <x>521</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>26</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_13">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Grmma：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="grmma_doubleSpinBox">
+               <property name="geometry">
+                <rect>
+                 <x>521</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>26</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_14">
+               <property name="geometry">
+                <rect>
+                 <x>600</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_doubleSpinBox">
+               <property name="geometry">
+                <rect>
+                 <x>660</x>
+                 <y>340</y>
+                 <width>81</width>
+                 <height>26</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_15">
+               <property name="geometry">
+                <rect>
+                 <x>600</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta_p：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_p_doubleSpinBox">
+               <property name="geometry">
+                <rect>
+                 <x>660</x>
+                 <y>390</y>
+                 <width>81</width>
+                 <height>26</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_30">
+               <property name="geometry">
+                <rect>
+                 <x>750</x>
+                 <y>250</y>
+                 <width>51</width>
+                 <height>29</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>PE-init：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_31">
+               <property name="geometry">
+                <rect>
+                 <x>750</x>
+                 <y>290</y>
+                 <width>61</width>
+                 <height>30</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>alpha-init:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="PElineEdit">
+               <property name="geometry">
+                <rect>
+                 <x>810</x>
+                 <y>250</y>
+                 <width>81</width>
+                 <height>30</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="alpha_init_Edit">
+               <property name="geometry">
+                <rect>
+                 <x>810</x>
+                 <y>290</y>
+                 <width>81</width>
+                 <height>29</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_10">
+               <property name="geometry">
+                <rect>
+                 <x>760</x>
+                 <y>470</y>
+                 <width>131</width>
+                 <height>131</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <item>
+                 <widget class="QPushButton" name="get_PButton">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(157, 157, 236);
+background-color: rgb(230, 183, 169);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>P-Value</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_15">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(157, 157, 236);
+background-color: rgb(229, 206, 198);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Plot-P</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox">
+               <property name="geometry">
+                <rect>
+                 <x>590</x>
+                 <y>531</y>
+                 <width>151</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_16">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>530</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Scaling  -  factor:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_17">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>570</y>
+                 <width>131</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Translation factor:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>590</x>
+                 <y>571</y>
+                 <width>151</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="Line" name="line_4">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>210</y>
+                 <width>611</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-right-color: rgb(170, 170, 255);</string>
+               </property>
+               <property name="lineWidth">
+                <number>2</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+              <widget class="Line" name="line_5">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>440</y>
+                 <width>761</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="lineWidth">
+                <number>2</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+              <widget class="Line" name="line_6">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>440</y>
+                 <width>141</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="lineWidth">
+                <number>2</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_3">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>230</y>
+                 <width>411</width>
+                 <height>201</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4"/>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_4">
+               <property name="geometry">
+                <rect>
+                 <x>760</x>
+                 <y>330</y>
+                 <width>131</width>
+                 <height>91</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <widget class="QPushButton" name="get_QButton">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(191, 129, 112);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Q-Value</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_11">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(230, 184, 169);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Plot-Q</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QGraphicsView" name="graphicsView">
+               <property name="geometry">
+                <rect>
+                 <x>443</x>
+                 <y>230</y>
+                 <width>451</width>
+                 <height>201</height>
+                </rect>
+               </property>
+               <property name="lineWidth">
+                <number>20</number>
+               </property>
+               <property name="midLineWidth">
+                <number>5</number>
+               </property>
+              </widget>
+              <widget class="QGraphicsView" name="graphicsView_2">
+               <property name="geometry">
+                <rect>
+                 <x>442</x>
+                 <y>460</y>
+                 <width>451</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <property name="lineWidth">
+                <number>20</number>
+               </property>
+               <property name="midLineWidth">
+                <number>5</number>
+               </property>
+              </widget>
+              <zorder>graphicsView_2</zorder>
+              <zorder>graphicsView</zorder>
+              <zorder>mappingTable</zorder>
+              <zorder>tableView</zorder>
+              <zorder>verticalLayoutWidget_2</zorder>
+              <zorder>line</zorder>
+              <zorder>label_7</zorder>
+              <zorder>label_8</zorder>
+              <zorder>save_data_Button</zorder>
+              <zorder>pushButton_8</zorder>
+              <zorder>pushButton_9</zorder>
+              <zorder>comboBox</zorder>
+              <zorder>comboBox_2</zorder>
+              <zorder>verticalLayoutWidget_5</zorder>
+              <zorder>label_9</zorder>
+              <zorder>label_10</zorder>
+              <zorder>Qinit_LineEdit</zorder>
+              <zorder>label_11</zorder>
+              <zorder>label_12</zorder>
+              <zorder>alpha_doubleSpinBox</zorder>
+              <zorder>label_13</zorder>
+              <zorder>grmma_doubleSpinBox</zorder>
+              <zorder>label_14</zorder>
+              <zorder>theta_doubleSpinBox</zorder>
+              <zorder>label_15</zorder>
+              <zorder>theta_p_doubleSpinBox</zorder>
+              <zorder>label_30</zorder>
+              <zorder>label_31</zorder>
+              <zorder>PElineEdit</zorder>
+              <zorder>alpha_init_Edit</zorder>
+              <zorder>verticalLayoutWidget_10</zorder>
+              <zorder>doubleSpinBox</zorder>
+              <zorder>label_16</zorder>
+              <zorder>label_17</zorder>
+              <zorder>doubleSpinBox_2</zorder>
+              <zorder>line_4</zorder>
+              <zorder>line_5</zorder>
+              <zorder>line_6</zorder>
+              <zorder>verticalLayoutWidget_3</zorder>
+              <zorder>verticalLayoutWidget_4</zorder>
+             </widget>
+             <widget class="QWidget" name="page_3">
+              <widget class="QLineEdit" name="Qinit_LineEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>290</y>
+                 <width>341</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="placeholderText">
+                <string>Enter comma-separated initial Q values for the different decision actions</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>220</y>
+                 <width>151</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="editable">
+                <bool>false</bool>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>SARSA</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Auto-alpha-TD(0)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QTableView" name="tableView_2">
+               <property name="geometry">
+                <rect>
+                 <x>330</x>
+                 <y>10</y>
+                 <width>421</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="PElineEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>380</x>
+                 <y>340</y>
+                 <width>51</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_18">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>380</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta_p：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_19">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_20">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>220</y>
+                 <width>131</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>TD model select:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_32">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>340</y>
+                 <width>71</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>PE-init：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="alpha_doubleSpinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_7">
+               <property name="geometry">
+                <rect>
+                 <x>770</x>
+                 <y>10</y>
+                 <width>111</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <widget class="QPushButton" name="loadButton_2">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(229, 206, 198);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Load data</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="setButton_2">
+                  <property name="styleSheet">
+                   <string notr="true">
+background-color: rgb(131, 93, 255);
+background-color: rgb(230, 183, 169);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Set map</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="saveButton_2">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;
+background-color: rgb(191, 129, 112);</string>
+                  </property>
+                  <property name="text">
+                   <string>OK</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QLabel" name="label_21">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Alpha：</string>
+               </property>
+              </widget>
+              <widget class="QTableWidget" name="mappingTable_2">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>301</width>
+                 <height>191</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_33">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>380</y>
+                 <width>81</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>alpha-init:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="grmma_doubleSpinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>380</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_22">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>380</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Grmma：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="alpha_init_Edit_2">
+               <property name="geometry">
+                <rect>
+                 <x>380</x>
+                 <y>380</y>
+                 <width>51</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_23">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>290</y>
+                 <width>51</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Q-init：</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_doubleSpinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_p_doubleSpinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>380</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_8">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>410</y>
+                 <width>441</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_9"/>
+              </widget>
+              <widget class="QLabel" name="label_24">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>280</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Scaling factor:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>590</x>
+                 <y>280</y>
+                 <width>61</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_25">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>220</y>
+                 <width>131</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>QP model select:</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_4">
+               <property name="geometry">
+                <rect>
+                 <x>630</x>
+                 <y>220</y>
+                 <width>161</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Softmax</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sigmoid</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_26">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>330</y>
+                 <width>141</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Translation factor:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+               <property name="geometry">
+                <rect>
+                 <x>610</x>
+                 <y>330</y>
+                 <width>91</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="get_QButton_2">
+               <property name="geometry">
+                <rect>
+                 <x>740</x>
+                 <y>330</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+background-color: rgb(157, 157, 236);
+border-top-right-radius:6px;
+border-bottom-left-radius:6px;
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
+background-color: rgb(191, 129, 112);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Q-value</string>
+               </property>
+              </widget>
+              <widget class="Line" name="line_3">
+               <property name="geometry">
+                <rect>
+                 <x>440</x>
+                 <y>240</y>
+                 <width>20</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+              <widget class="QProgressBar" name="progressBar_2">
+               <property name="geometry">
+                <rect>
+                 <x>470</x>
+                 <y>380</y>
+                 <width>411</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QProgressBar::chunk {background-color: rgb(230, 184, 169);}
+
+</string>
+               </property>
+               <property name="value">
+                <number>24</number>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_9">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>410</y>
+                 <width>441</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_10"/>
+              </widget>
+              <widget class="QPushButton" name="pushButton_12">
+               <property name="geometry">
+                <rect>
+                 <x>380</x>
+                 <y>610</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+border-top-right-radius:6px;
+border-bottom-left-radius:6px;
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
+background-color: rgb(230, 184, 168);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Save-fig</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_43">
+               <property name="geometry">
+                <rect>
+                 <x>670</x>
+                 <y>280</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Predic_Len:</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_13">
+               <property name="geometry">
+                <rect>
+                 <x>670</x>
+                 <y>610</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+color: rgb(255, 255, 255);
+font: 9pt &quot;楷体&quot;;
+border-top-right-radius:6px;
+border-bottom-left-radius:6px;
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
+background-color: rgb(192, 128, 111);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Save data</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="predictionButton">
+               <property name="geometry">
+                <rect>
+                 <x>100</x>
+                 <y>610</y>
+                 <width>141</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+border-top-right-radius:6px;
+border-bottom-left-radius:6px;
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
+background-color: rgb(229, 205, 198);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Predict</string>
+               </property>
+              </widget>
+              <widget class="QSpinBox" name="spinBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>770</x>
+                 <y>280</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="maximum">
+                <number>10000</number>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_4">
+              <widget class="QComboBox" name="comboBox_5">
+               <property name="geometry">
+                <rect>
+                 <x>180</x>
+                 <y>440</y>
+                 <width>161</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Softmax</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Sigmoid</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_34">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>340</y>
+                 <width>71</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>PE-init：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_27">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_28">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Theta_p：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="PElineEdit_3">
+               <property name="geometry">
+                <rect>
+                 <x>380</x>
+                 <y>340</y>
+                 <width>51</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_p_doubleSpinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_29">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>230</y>
+                 <width>131</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>TD model select:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_35">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>440</y>
+                 <width>131</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>QP model select:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_36">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Grmma：</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_37">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>500</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Scaling factor:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+               <property name="geometry">
+                <rect>
+                 <x>170</x>
+                 <y>560</y>
+                 <width>61</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="alpha_doubleSpinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>500</y>
+                 <width>91</width>
+                 <height>31</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_11">
+               <property name="geometry">
+                <rect>
+                 <x>320</x>
+                 <y>10</y>
+                 <width>111</width>
+                 <height>201</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <item>
+                 <widget class="QPushButton" name="loadButton_3">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(131, 93, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(227, 205, 195);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Load data</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="setButton_3">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+background-color: rgb(131, 93, 255);
+background-color: rgb(231, 183, 169);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Set map</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="saveButton_3">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(170, 170, 255);
+background-color: rgb(131, 93, 255);
+color: rgb(255, 255, 255);
+background-color: rgb(193, 128, 112);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>OK</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QPushButton" name="generate_Button">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>610</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+color: rgb(255, 255, 255);
+font: 9pt &quot;楷体&quot;;
+background-color: rgb(229, 206, 198);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string> Generate</string>
+               </property>
+              </widget>
+              <widget class="QTableWidget" name="mappingTable_3">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>301</width>
+                 <height>201</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_38">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>560</y>
+                 <width>141</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Translation factor:</string>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="theta_doubleSpinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="grmma_doubleSpinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>390</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_39">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>390</y>
+                 <width>81</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>alpha-init:</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="preview_Button">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>610</y>
+                 <width>121</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+font: 9pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(230, 184, 169);</string>
+               </property>
+               <property name="text">
+                <string>Preview</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_40">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>340</y>
+                 <width>61</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Alpha：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="alpha_init_Edit_3">
+               <property name="geometry">
+                <rect>
+                 <x>380</x>
+                 <y>390</y>
+                 <width>51</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Qinit_LineEdit_3">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>290</y>
+                 <width>341</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="placeholderText">
+                <string>Enter comma-separated initial Q values for the different decision actions</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_41">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>290</y>
+                 <width>51</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;Arial&quot;;
+font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Q-init：</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_6">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>230</y>
+                 <width>151</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>SARSA</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Auto-alpha-TD(0)</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>User-define</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QTableView" name="tableView_3">
+               <property name="geometry">
+                <rect>
+                 <x>440</x>
+                 <y>430</y>
+                 <width>451</width>
+                 <height>221</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);</string>
+               </property>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_12">
+               <property name="geometry">
+                <rect>
+                 <x>440</x>
+                 <y>230</y>
+                 <width>451</width>
+                 <height>191</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_13"/>
+              </widget>
+              <widget class="QWidget" name="verticalLayoutWidget_13">
+               <property name="geometry">
+                <rect>
+                 <x>440</x>
+                 <y>10</y>
+                 <width>451</width>
+                 <height>211</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_14"/>
+              </widget>
+              <widget class="QPushButton" name="savegendata_Button">
+               <property name="geometry">
+                <rect>
+                 <x>310</x>
+                 <y>610</y>
+                 <width>111</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(131, 93, 255);
+color: rgb(0, 0, 0);
+font: 9pt &quot;Arial&quot;;
+background-color: rgb(193, 128, 112);</string>
+               </property>
+               <property name="text">
+                <string>Save</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_42">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>500</y>
+                 <width>71</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>len-num:</string>
+               </property>
+              </widget>
+              <widget class="QSpinBox" name="spinBox">
+               <property name="geometry">
+                <rect>
+                 <x>330</x>
+                 <y>550</y>
+                 <width>91</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="maximum">
+                <number>10000</number>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_44">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>550</y>
+                 <width>71</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 10pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>iter-num:</string>
+               </property>
+              </widget>
+              <widget class="QSpinBox" name="spinBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>330</x>
+                 <y>500</y>
+                 <width>91</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="maximum">
+                <number>10000</number>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_5">
+              <widget class="QLabel" name="label_4">
+               <property name="geometry">
+                <rect>
+                 <x>180</x>
+                 <y>40</y>
+                 <width>641</width>
+                 <height>571</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+font: italic 12pt &quot;Arial&quot;;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;The project based on TD algorithm, the realization of the cognitive decision-making &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;process of the biological function of quantitative representation modeling, and provide&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt; a wealth of functional modules and visual GUI interface. The toolkit aims to enable&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;researchers and practitioners involved in cognitive decision-making to quickly model&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;quantitative decision-making processes, it provides powerful support for the&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;research and application of cognitive science.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;&lt;br/&gt;Copyright Notice: This project is licensed under the MIT License, an open &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;source License, which allows it to be used, modified, and distributed by&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt; others. Encourage other developers to contribute to the project's update&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt; iterations.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;Author Info: Qiyun Wu&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;Huazhong University of Science and Technology&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:10.5pt;&quot;&gt;Email: wuqiyun@hust.edu.cn&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
